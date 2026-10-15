@@ -1,0 +1,46 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:00afd26b-b009-566c-85c0-06c36ff2b8ae",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T16:36:49Z",
+    "component": {
+      "type": "application",
+      "name": "TORCHXRAYVISION",
+      "version": "bd41a6ce24c4",
+      "bom-ref": "pkg:generic/anticloud/TORCHXRAYVISION@bd41a6ce24c4",
+      "purl": "pkg:generic/anticloud/TORCHXRAYVISION@bd41a6ce24c4",
+      "licenses": [
+        {
+          "license": {
+            "id": "UNKNOWN"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "bd41a6ce24c4f69fd6e7fd6c8b263166a6bbd737"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/mlmed/torchxrayvision"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "__version__",
+      "version": "= [",
+      "purl": "pkg:pypi/--version--@[",
+      "bom-ref": "pypi/__version__@= ["
+    }
+  ]
+}
